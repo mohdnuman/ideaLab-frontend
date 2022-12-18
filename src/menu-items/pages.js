@@ -11,7 +11,7 @@ const icons = {
 const pages = {
     id: 'pages',
     title: 'Pages',
-    caption: 'Pages Caption',
+    caption: '',
     type: 'group',
     children: [
         {
@@ -36,6 +36,12 @@ const pages = {
                     target: true
                 }
             ]
+        },
+        {
+            id: 'submit idea',
+            title: 'Submit An Idea',
+            type: 'collapse',
+            icon: icons.IconKey
         }
     ]
 };
